@@ -6,10 +6,12 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && tsc --noEmit",
-		"clean": "rm -rf ./dist ./node_modules ./src/paraglide"
+		"clean": "rm -rf ./dist ./node_modules ./src/paraglide",
+		"lint": "eslint ./src"
 	},
 	"devDependencies": {
 		"@inlang/paraglide-js": "workspace:*",
+		"eslint": "^9.36.0",
 		"typescript": "^5.7.2",
 		"vite": "^6.0.7"
 	}
